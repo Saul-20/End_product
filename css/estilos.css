@@ -1,0 +1,152 @@
+
+
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&');
+/* --------------------variables */
+:root{
+--green-color: #7ACC2D;
+--white-color: white;
+--black-color: black;
+/* --------------------tipograia */
+--normal: 12px;
+/* --------------------espaciado */
+--space: 10px;
+/* --------------------box shadow */
+--box: 0 0 1px #c1bcbc
+}
+
+/* --------------------variables */
+
+html, body:{
+  padding: 0px;
+  margin: 0px;
+  font-size: var(--normal);
+  font-family: 'Open Sans', sans-serif;
+}
+
+nav{
+  display: flex;
+  background-color: var(--green-color);
+  padding: var(--space);
+  color: var(--white-color);
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav ul{
+  display: flex;
+}
+
+nav ul li{
+  padding-left: var(--space);
+    list-style: none;
+}
+ nav li a{
+   color: var(--black-color);
+   text-decoration: none;
+ }
+
+nav li a:hover{
+  color: var(--white-color);
+}
+/* ----------------------main section */
+.main_section{
+  padding: 100px;
+  text-align: center;
+}
+
+.products{
+  background-image: url("C:/Users/SAUL RODRIGUEZ/Desktop/atom/images/curve.png");
+  height: 50px;
+  background-size: cover;
+  background-position: center;
+  padding: 20%;
+  display: flex;
+}
+
+.product{
+  padding: var(--space);
+  margin-top: -250px;
+}
+
+.products .content{
+  background-color: var(--white-color);
+  padding: 15px;
+  box-shadow: var(--box);
+}
+
+.img_content{
+  text-align: center;
+}
+
+.main_button{
+  background-color: var(--green-color);
+  width: 100%;
+  padding: var(--space);
+  font-size: var(--normal);
+  color: var(--white-color);
+  border: 0;
+  cursor: pointer;
+  border-radius: 2px;
+}
+
+.main_button:hover{
+  background-color: #5e9e22;
+
+}
+/* aqui termina la primera seccion */
+
+/* aqui empieza la segunda seccion */
+
+.beneficios{
+  display: flex;
+  padding: 5%;
+}
+
+.beneficio{
+  padding: 30px;
+  background-color: white;
+  margin: 65px;
+  text-align: center;
+}
+
+/* aqui termina la segunda seccion */
+
+/* aqui empieza la tercera seccion */
+.menciones{
+  display: flex;
+  padding: 5%;
+}
+
+.mencion{
+  margin: 15px;
+  text-align: center;
+  padding: 10px;
+  box-shadow: var(--box);
+}
+
+/* aqui termina la tercera seccion */
+
+/* aqui empieza footer */
+footer{
+  padding: 15px;
+  background-color: #b5adad;
+}
+
+footer ul{
+  justify-content: space-between;
+  display: flex;
+  list-style: none;
+}
+
+footer ul li a{
+  font-size: 17px;
+  color: black;
+  text-decoration: none;
+}
+
+footer li a:hover{
+   color: white;
+}
